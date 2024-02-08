@@ -1,0 +1,17 @@
+span {
+    color: blue;
+    font-size: 15px;
+}
+
+body {
+    background-color:#EBD9B4;
+    width: 300px;
+}
+
+html {
+    border-radius: 25px;
+}
+
+:root {
+    --md-sys-color-outline: #9DBC98;
+}
