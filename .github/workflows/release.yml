@@ -1,7 +1,7 @@
 on:
   push:
-    branches:
-      - 'main'
+    tags:
+      - 'v*.*'
 # Make sure the GITHUB_TOKEN has permission to upload to our releases
 permissions:
   contents: write
@@ -28,7 +28,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ext.zip
           asset_name: ext
-          tag: ${{ github.event.head_commit.message }}
+          tag: ${{ github.ref_name }}
           overwrite: true
           body: "New release"
           
