@@ -1,9 +1,10 @@
 {
   "name": "auto_dialer",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "Oleh Pona",
   "license": "ISC",
