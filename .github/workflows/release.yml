@@ -28,7 +28,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ext.zip
           asset_name: ext
-          tag: ${{ github.ref }}
+          tag: ${{ github.event.head_commit.message }}
           overwrite: true
           body: "New release"
           
