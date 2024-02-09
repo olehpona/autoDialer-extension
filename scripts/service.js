@@ -1,4 +1,4 @@
-const api = 'https://autodialer-fi4z.onrender.com/'
+const api = 'https://autodialer-fi4z.onrender.com/api/'
 
 chrome.runtime.onInstalled.addListener(async () => {
     chrome.contextMenus.create({

@@ -7,7 +7,12 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <p >Api key: <span id="key"></span> </p>
+    <div class="version">
+        <p>Current version: <span id="cversion"></span></p>
+        <p>Last version: <span id="lversion"></span></p>
+    </div>
+    <a id="updater" href="https://github.com/olehpona/autoDialer-extension/releases/latest">Update available</a>
+    <p id="data">Api key: <span id="key"></span> </p>
     <md-filled-button id="btn">Create New</md-filled-button>
     <script src="popup.js"></script>
 </body>
